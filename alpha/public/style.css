@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.home-page{
+    height: 900px;
+    width: 1515px;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #222831;
+    color: white;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.header h1{
+    padding-left: 90px;
+    padding-top: 25px;
+    font-size: 40px;
+}
+.content{
+    height: 600px;
+    background-image: url("/BG.jpg");
+    width:100%;
+    background-size: cover;
+}
+.content h3{
+    padding-top: 170px;
+    padding-left: 90px;
+    font-size: 36px;
+    color: black;
+}
+.input{
+    height: 50px;
+    width: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-left: 90px ;
+}
+button{
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Border style */
+    background-color: #f0f0f0; /* Button background color */
+    color: #333; /* Text color */
+    text-align: center;
+    text-decoration: none; /* Remove underline from link */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font family */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 15px;
+}

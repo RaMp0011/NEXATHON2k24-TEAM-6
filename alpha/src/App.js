@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Search from './compontents/Search';
 
 function App() {
   return (
-    <div className="App">
-      <h1>blaa</h1>
-    </div>
+    <>
+    <div class="header"><h1>Urban Dwell</h1></div>
+    <Search></Search>
+    </>
   );
 }
 
